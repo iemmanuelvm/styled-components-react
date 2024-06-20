@@ -21,11 +21,9 @@ const Home = () => {
             <HeroSection />
             <InfoSection {...homeObjOne} />
             <InfoSection {...homeObjTwo} />
-            <Services />
             <InfoSection {...homeObjThree} />
+            <Services />
             <InfoSection {...homeObjFour} />
-            <InfoSection {...homeObjFive} />
-            <InfoSection {...homeObjSix} />
             <Footer />
         </>
     );
